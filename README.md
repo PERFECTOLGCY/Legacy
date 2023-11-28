@@ -1,74 +1,60 @@
-<h1 align="center">
-WG Tunnel
-</h1>
+# GitHub Codespaces ♥️ .NET 8
 
-<div align="center">
+Want to try out the latest performance improvements coming with .NET 8 for web development? 
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Discord Chat](https://img.shields.io/discord/1108285024631001111.svg)](https://discord.gg/rbRRNh6H7V)
+This repo builds a Weather API using Minimal APIs, opens Swagger so you can call and test the API, and displays the data in a web application using Blazor with .NET 8. 
 
-</div>
+We've given you both a frontend and backend to play around with and where you go from here is up to you!
 
-<div align="center">
+Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
 
+### Run Options
 
-[![Google Play](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.zaneschepke.wireguardautotunnel)
-[![Fire TV](https://img.shields.io/badge/fire%20tv-fc3b2d?style=for-the-badge&logo=amazon%20fire%20tv&logoColor=white)](https://www.amazon.com/gp/product/B0CFGGL7WK)
-[![F-Droid](https://img.shields.io/static/v1?style=for-the-badge&message=F-Droid&color=1976D2&logo=F-Droid&logoColor=FFFFFF&label=)](https://f-droid.org/packages/com.zaneschepke.wireguardautotunnel/)
+[![Open in GitHub Codespaces](https://img.shields.io/static/v1?style=for-the-badge&label=GitHub+Codespaces&message=Open&color=lightgrey&logo=github)](https://codespaces.new/github/dotnet-codespaces)
+[![Open in Dev Container](https://img.shields.io/static/v1?style=for-the-badge&label=Dev+Container&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/github/dotnet-codespaces)
 
+You can also run this repository locally by following these instructions: 
+1. Clone the repo to your local machine `git clone https://github.com/bradygaster/dotnet-codespace`
+1. Open repo in VS Code
 
-</div>
+## Getting started
 
-<div align="center">
+1. **📤 One-click setup**: [Open a new Codespace](https://codespaces.new/github/dotnet-codespaces), giving you a fully configured cloud developer environment.
+2. **▶️ Run all, one-click again**: Use VS Code's built-in *Run* command and open the forwarded ports *8080* and *8081* in your browser. 
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/N4N8NMJN2)
+![](images/RunAll.png)
 
-</div>
+3. The Blazor web app and Swagger tabs should now be open on your browser. On Swagger, click "Try it out" and "Execute" to call and test the API. 
 
-
-<div align="left">
-
-This is an alternative Android Application for [WireGuard](https://www.wireguard.com/) with added features. Built using the [wireguard-android](https://github.com/WireGuard/wireguard-android) library and [Jetpack Compose](https://developer.android.com/jetpack/compose), this application was inspired by the official [WireGuard Android](https://github.com/WireGuard/wireguard-android) app.
-
-</div>
-
-<div align="center">
-
-## Screenshots
-
-<p float="center">
-  <img label="Main" style="padding-right:25px" src="asset/main_screen.png" width="200" />
-  <img label="Config" style="padding-left:25px" src="asset/config_screen.png" width="200" />
-  <img label="Settings" style="padding-left:25px" src="asset/settings_screen.png" width="200" />
-  <img label="Support" style="padding-left:25px" src="asset/support_screen.png" width="200" />
-</p>
-
-<div align="left">
-
-## Inspiration
-
-The inspiration for this app came from the inconvenience of constantly having to turn VPN off and on while on different networks. With there being no free solution to this problem, this app was created to meet that need.
-
-## Features
-
-* Add tunnels via .conf file
-* Auto connect to VPN based on Wi-Fi SSID
-* Split tunneling by application with search
-* Always-on VPN for Android support
-* Quick tile support for vpn toggling
-* Dynamic shortcuts support for automation integration
-* Configurable Trusted Network list 
-* Optional auto connect on mobile data
-* Automatic service restart after reboot
-* Service will stay running in background after app has been closed
+![](images/BlazorApp.png)
+![](images/Swagger.png)
 
 
-## Building
-    
-```
-$ git clone https://github.com/zaneschepke/wgtunnel
-$ cd wgtunnel
-$ ./gradlew assembleRelease
-```
+4. **🔄 Iterate quickly:** Codespaces updates the server on each save, and VS Code's debugger lets you dig into the code execution.
 
-</span>
+5. To stop running, return to VS Code, and click Stop twice in the debug toolbar. 
+
+![](images/StopRun.png)
+
+
+## Contributing
+
+This project welcomes contributions and suggestions.  Most contributions require you to agree to a
+Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
+the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+
+When you submit a pull request, a CLA bot will automatically determine whether you need to provide
+a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
+provided by the bot. You will only need to do this once across all repos using our CLA.
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
+contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+
+## Trademarks
+
+This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
+trademarks or logos is subject to and must follow 
+[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
+Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
+Any use of third-party trademarks or logos are subject to those third-party's policies.
